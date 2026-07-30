@@ -1,7 +1,15 @@
 aid: minersai
 name: Minersai
-description: Minersai is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MinersAI applies artificial intelligence and machine learning to geoscience
+  data for mineral exploration, mining operations, public geological authorities, and
+  mining & minerals investors. Founded and run by geologists (CEO Tomi de Lophem, CTO
+  Mason Dykstra) and backed by Speedinvest and the Creative Destruction Lab, MinersAI
+  structures, cleans, QCs, feature-engineers, and standardizes geochemical, geophysical,
+  and remote-sensing datasets, then applies anomaly detection, heatmap generation,
+  dimensionality reduction, and geostatistical interpolation to surface high-potential
+  exploration targets. Its "geologists-in-the-loop" approach keeps domain experts central
+  rather than replacing their expertise. The platform is delivered as a gated web
+  application (app.minersai.com); there is no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/minersai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,57 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64c0c802311963241fd4286e/66f71898a272ae9e893bb37f_Favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Geoscience
+- Mineral Exploration
+- Mining
+- Geology
+- Data Standardization
 apis: []
+common:
+- type: DomainSecurity
+  url: security/minersai-domain-security.yml
+- type: Website
+  url: https://www.minersai.com
+- type: About
+  url: https://www.minersai.com/about
+- type: Blog
+  url: https://www.minersai.com/resources/publications
+- type: Login
+  url: https://app.minersai.com/auth/login
+- type: SignUp
+  url: https://www.minersai.com/get-a-demo
+- type: TermsOfService
+  url: https://www.minersai.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.minersai.com/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/minersai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

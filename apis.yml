@@ -46,7 +46,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Geoscience
 - Mineral Exploration
 - Mining
@@ -61,6 +61,7 @@ tags_raw:
 - Mining
 - Geology
 - Data Standardization
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
